@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    background: url(../img/Rectangle.png);
+    padding-bottom: 20px;
+    background-size: cover;
+    min-height: 480px;
+}
+.login_block.fl_right {
+    border: 1px solid #FFFF;
+    border-radius: 100px;
+    padding: 7px 24px;
+    align-items: center;
+    display: flex;
+    margin-left: 75%;
+}
+.login_block.fl_right a{
+    text-decoration: none;
+    color: #FFFF;
+}
+.main_header{
+    text-align: center;
+}
+.flex_item input{
+    max-width: 32px;
+}
+.container {
+    max-width: none;
+}
+.form.main_header_forms_form {
+    width: 824px;
+}
+.main_header_forms_form {
+    max-width: 824px;
+    margin: auto;
+}
+.flex_item_date input{
+    max-width: 18px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.flex_item input{
+    outline: 0;
+}
+.flex_item_date input{
+    outline: 0;
+}
+.main_header_forms_top {
+    border-radius: 10px;
+}
+.form_row {
+    width: calc(50% - 10px);
+    border-radius: 10px;
+}
+.one{
+    margin-right: 20px; 
+}
+.main_header_forms_top {
+    width: 100%;
+}
+.form_box input {
+    max-width: 52px;
+    padding-left: 12px;
+    outline: 0;
+}
+.form_box{
+    display: flex;
+    justify-content: space-between;
+}
+.raing_block input{
+    width: 100%;
+}
+.form_box input{
+    border-radius: 10px;
+    border: 2px solid #DBE0E7;
+}
+.raing_values {
+    display: flex;
+    justify-content: space-between;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: small;
+    line-height: inherit;
+}
+.values input {
+    max-width: 57px;
+    border-radius: 10px;
+    border: 2px solid #DBE0E7;
+    outline: 0;
+    padding-left: 10px;
+}
+.slider_treck input {
+    width: 100%;
+}
+.form_results{
+    background: rgb(0, 0, 230);
+}
+.form_results {
+    margin: auto;
+    max-width: 423px;
+    border-radius: 10px;
+}
+.main_contant_item_img img {
+    border-radius: 10px;
+    width: 100%;
+}
+.main_contant_items{
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.main_contant_items_item {
+    width: calc(100% / 5 - 15px);
+}
+.unavailable {
+    position: absolute;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.main_contant {
+    padding: 10px;
+}
+.main_header_forms_btn {
+    border-radius: 10px;
+}
+.main_contant_item_attr {
+    position: absolute;
+    padding-left: 9px;
+    max-height: 52px;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: max-height 0.3s linear;
+}
+.main_contant_items_item {
+    position: relative;
+}
+.main_contant_item_title {
+    color: white;
+}
+.desc_item {
+    color: white;
+}
+.item {
+    font-size: 15px;
+}
+.main_header_forms_top.flex.form_row>.flex_item {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form_row {
+    background: #fff;
+    margin-bottom: 10px;
+    min-height: 60px;
+    border-radius: 10px;
+}
+.main_header_forms_top.flex.form_row>.flex_item:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px solid #dbe0e7;
+    border-right: 2px solid #dbe0e7;
+}
+.main_header_forms_top.flex.form_row>.flex_item_date {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main_contant_items_item:hover .main_contant_item_attr {
+    max-height: 100%;
+}
+.desc_item {
+    display: flex;
+}
+.more_btn{
+    color: black;
+}
+.more_btn span{
+    padding-left: 10px;
+}
+.footer_container {
+    background: rgb(68, 0, 156);
+}
+.footer_contant {
+    display: none;
+}
+.modal:not(.show) {
+    display: none;
+}
+.modal{
+    display: block;
+}
+.modal_container{
+    background: #EFF1F4;
+    margin: 42px;
+    display: flex;
+}
+.modal_container_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.modal_container_img{
+    width: 50%;
+}
+.modal_container_box {
+    padding-left: 50px;
+    width: 50%;
+}
+.modal_container_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal_container {
+    max-width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+div.modal.show {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.modal_container_resurs {
+    width: 62%;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: small;
+    line-height: inherit;
+    width: 100%;
+}
+.modal_container_resurs {
+    width: 100%;
+}
+.modal_container_resurs_box span {
+    position: absolute;
+    padding-left: 18%;
+}
+.modal_container_resurs_tell span {
+    position: absolute;
+    padding-left: 20%;
+}
+.modal_container_inputs_input input{
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 98%;
+}
+.modal_container_inputs {
+    width: 100%;
+}
+.modal_container_resurs_tell input{
+    border: 0;
+    border-radius: 10px;
+    padding: 16px;
+}
+.modal_container_resurs_tell span{
+    align-items: center;
+    padding-top: 16px;
+}
+.modal_container_resurs_box input{
+    border: 0;
+    border-radius: 10px;
+    padding: 16px;
+}
+.modal_container_resurs_box span{
+    align-items: center;
+    padding-top: 10px;
+}
+.inputs{
+    padding-bottom: 10px;
+}
+.modal_container_resurs_box{
+    margin-bottom: 10px;
+}
+.modal_container_resurs_buttom {
+    background: #0C73FE;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.modal_container_resurs_buttom a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.modal_container_resurs_text a{
+    color: black;
+}
+.modal_container_resurs_text{
+    display: flex;
+}
+.modal_container_resurs_text{
+    font-size: 13px;
+}
